@@ -1,0 +1,8 @@
+# Ignore build artifacts
+build/
+/Backend/node_modules
+# Ignore log files
+*.log
+
+# Ignore configuration files with sensitive data
+config.ins
