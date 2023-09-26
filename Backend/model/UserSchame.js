@@ -15,10 +15,11 @@ const userSchema = new mongoose.Schema({
   password: {
     type: String,
     required: true,
-  },
-  // Add more fields as needed (e.g., name, address, orders history)
+  }
+ 
+ 
 });
 
-const UserModel = mongoose.model("User", userSchema);
+const UserModel = mongoose.model("usersdata", userSchema);
 
 module.exports = UserModel;

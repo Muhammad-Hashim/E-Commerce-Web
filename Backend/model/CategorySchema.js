@@ -7,7 +7,7 @@ const categorySchema = new mongoose.Schema({
     unique: true,
   },
   description: String,
-  // Add more fields as needed
+  
 });
 
 const CategoryModel = mongoose.model("Category", categorySchema);

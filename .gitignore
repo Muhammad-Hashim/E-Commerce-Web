@@ -6,3 +6,4 @@ build/
 
 # Ignore configuration files with sensitive data
 config.ins
+/.env
